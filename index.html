@@ -53,8 +53,8 @@ let bgX = 0;
 
 /* PIPE SETTINGS */
 const PIPE_H = 240;
-const GAP = 290;        // medium–hard gap
-const PIPE_SPEED = 2.4;
+const GAP = 300;        // medium–hard gap
+const PIPE_SPEED = 2.0;
 
 /* PLAYER */
 const bird = {
@@ -80,7 +80,7 @@ const bird = {
 const pipes = [];
 let gapCenter = canvas.height / 2;
 let direction = 1;             // 1 = down, -1 = up
-const ZIG_SHIFT = 45;          // zig-zag strength
+const ZIG_SHIFT = 35;          // zig-zag strength
 
 function createPipe(){
   direction *= -1;
